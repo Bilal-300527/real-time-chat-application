@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section id="screen-chat" class="card">
+      <header>
+        <a href="index.html"><button class="secondary">←</button></a>
+        <h2 id="me-name"></h2>
+      </header>
+      <div class="chat-layout">
+        <ul id="other-list"></ul>
+        <div class="chat-box">
+          <h3 id="chat-with">Select a user</h3>
+          <ul id="messages"></ul>
+          <div id="form">
+            <input id="text" placeholder="Message..." autocomplete="off" />
+            <button id="send-btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="chat.js"></script>
+  </body>
+</html>
