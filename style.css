@@ -29,12 +29,16 @@ body {
   display: none !important;
 }
 
-input {
-  padding: 10px;
+#form input {
+  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 15px;
+  font-size: 10px;
   flex: 1;
+  min-width: 0;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
 button {
@@ -62,6 +66,9 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
+  margin-right: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -156,6 +163,7 @@ h2 {
   flex-direction: column;
   gap: 8px;
   min-width: 0;
+  overflow: hidden;
 }
 
 .chat-box h3 {
